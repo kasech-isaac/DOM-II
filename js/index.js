@@ -32,7 +32,8 @@ window.addEventListener('keydown', (e) => {
 //   resize
   const letsGo = document.getElementsByClassName('img-content')
     window.addEventListener('resize', e =>{
-    letsGo.src="https://unsplash.it/200/200"
+    letsGo[1].src="https://unsplash.it/200/200"
+    console.log(letsGo)
 })
 // mouseover
 const homeLink=document.querySelector(".nav-link")
